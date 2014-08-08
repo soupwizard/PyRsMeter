@@ -1,7 +1,7 @@
 PyRsMeter
 =========
 
-RS232 Interface Library in Python for Radio Shack multimeters
+RS232 interface module in Python for Radio Shack multimeters
 
 *What it is*:  This is a python script that will talk over a serial
 port to a Radio Shack RS22812 digital multimeter.  

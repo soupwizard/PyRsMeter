@@ -1,0 +1,58 @@
+rs22812 
+From https://code.google.com/p/rs22812/
+Revision date: 22 Jun 2014 
+
+This project includes some python scripts that will talk to a Radio
+Shack RS22812 digital multimeter over its serial port.  You've gotten
+this file by cloning the Mercurial repository at the above URL.
+
+----------------------------------------------------------------------
+Files:
+
+0readme
+    This file
+meter.py
+    A small GUI using wxPython that displays meter readings.
+project_home_page
+    The text for the "Project Home" page at
+    https://code.google.com/p/rs22812/.
+readme.odt
+    Open Office file that generates the readme.pdf documentation file.
+readme.pdf
+    Documentation file.
+rs22812.py
+    Python script to talk to the RS22812 meter.
+rs22812_linux.py
+    A user named chursch submitted some modifications to rs22812.py
+    that he used to get things working on Linux.  I haven't tried or
+    tested this file, so you'll want to read the code first before
+    using it.
+pictures/oven_temperatures.png
+    Plot of some data taken with the Radio Shack meter in 2002.  The
+    measured values were a thermocouple's voltage which were
+    translated into temperature.  The oven is a GE oven installed in
+    our house in 1971.  0.1 mV resolution of Radio Shack meter means
+    temperature resolution of about 5 deg F.  The thermocouple joint
+    was put into about the middle of the oven, suspended in air.
+    Here's the timeline:
+
+    7:33 pm:    Turned the oven to 200 F
+    7:47 pm:    Set oven to 300 F
+    8:33 pm:    Set oven to 400 F
+    9:21 pm:    Set oven to 500 F
+    9:39 pm:    Turned oven off
+pictures/screen_shot.jpg
+    Screen shot of what the wxPython GUI in meter.py looks like.
+
+----------------------------------------------------------------------
+Copyright (C) 2009, 2014 Don Peterson
+Contact:  gmail.com@someonesdad1
+  
+                  The Wide Open License (WOL)
+  
+Permission to use, copy, modify, distribute and sell this software and
+its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this license appear in
+all copies.  THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+IMPLIED WARRANTY OF ANY KIND. See
+http://www.dspguru.com/wide-open-license for more information.

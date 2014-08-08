@@ -1,0 +1,20 @@
+rs22812 
+From https://code.google.com/p/rs22812/
+Revision date: 22 Jun 2014 
+
+This project includes some python scripts that will talk to a Radio
+Shack RS22812 digital multimeter over its serial port.  You've gotten
+this file by cloning the Mercurial repository at the above URL.
+
+----------------------------------------------------------------------
+Copyright (C) 2009, 2014 Don Peterson
+Contact:  gmail.com@someonesdad1
+  
+                  The Wide Open License (WOL)
+  
+Permission to use, copy, modify, distribute and sell this software and
+its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this license appear in
+all copies.  THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+IMPLIED WARRANTY OF ANY KIND. See
+http://www.dspguru.com/wide-open-license for more information.
